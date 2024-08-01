@@ -1,0 +1,43 @@
+
+/*Body*/
+.outlined {
+	display: inline-block;
+	width:800px;
+	border: 2px solid black;
+	margin-left: 20px;
+	margin-right: 10px;
+	border-radius: 8px;
+	background-color:powderblue;
+}
+
+.outlined img {
+	margin-left:300px;
+	width: 200px;
+	height:200px;
+	display: block;
+	padding: 10px;
+}
+
+.outlined label {
+	margin-left:40px;
+	width: 150px;
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.outlined input {
+	font-size: 15px;
+	padding: 3px;
+}
+
+h2 {
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3 {
+	font-weight: bold;
+	margin-left: 15px;
+}

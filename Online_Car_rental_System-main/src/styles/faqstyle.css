@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color:#97cff7;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.quest {
+  margin-bottom: 10px;
+}
+
+.quest h3 {
+  font-size: 18px;
+  color: #5c5b5b;
+  margin: 0;
+}
+
+.ans {
+  margin-bottom: 20px;
+  color: #2a2828;
+}
+
+.ans p {
+  margin: 0;
+}
+

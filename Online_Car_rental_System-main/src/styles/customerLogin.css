@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*header Content*/
+header{
+    display: inline-block;
+    width: 100%;
+    height: 57.917px;
+}
+
+.logo a img{
+    height: 57.917px;
+    width: 152.42px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 2% 30%;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.login-form h3{
+    align-self: flex-start;
+    padding: 10px 10px 0px 20px;
+    font-size: 25px;
+}
+
+.login-form form{
+    padding: 10%;
+    width: 100%;
+}
+
+.login-form form input[type="text"], input[type="password"]{
+    width: 100%;
+    height: 40px;
+    margin: 15px 0px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.login-form form label{
+    font-size: larger;
+}
+
+#login-Btn, #signup-Btn{
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#login-Btn{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+}
+
+#signup-Btn{
+    color: white;
+    background-color: #0094ff;
+    border:2px solid #0094ff;
+}
+
+.login-form form p{
+    font-size: large;
+    padding: 10px 0px;
+    text-align: center;
+}

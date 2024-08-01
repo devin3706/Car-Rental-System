@@ -1,0 +1,95 @@
+
+.filters{
+    margin: 8vh 0;
+   
+}
+.filters ul{
+    display: flex;
+   
+}
+.filters ul li a{
+
+    margin-right:0.5rem;
+    background-color: #0094ff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: 1px solid #0094ff;
+    border-radius: 20px;
+}
+.filters ul li a:hover{
+    cursor: pointer;
+    background-color: white;
+    color:#0094ff;
+    transition: 0.5s;
+}
+.repots{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.new-reports,
+.ongoing-reports,
+.monthly-reports{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin: 0 10px;
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow:5px 14px 32px -15px black;
+}
+.new-reports-header h1{
+    margin: 0;
+    color: #0094ff;
+}
+.reports-header{
+    text-align: center;
+    padding:2px 0;
+    text-transform: capitalize;
+    background-color: #3998dc;
+    border: 1px solid #3998dc;
+    border-radius: 10px;
+}
+.report-responsive{
+    width: 33%;
+}
+.report-card{
+    border: 1px solid #0094ff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.report-card:hover{
+    cursor: pointer;
+    background-color: #066fba;
+    transition: 0.8s;
+    color: white;
+}
+.report-card-details{
+    display: flex;
+    justify-content: space-between;
+}
+.report-card-details p{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.report-summery-card{
+    border: 1px solid #0094ff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.report-summery-card:hover{
+    cursor: pointer;
+    background-color: #066fba;
+    transition: 0.8s;
+    color: white;
+}
+.report-summery-card-details{
+    display: flex;
+    justify-content: space-around;
+}
+.report-summery-card-details p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}

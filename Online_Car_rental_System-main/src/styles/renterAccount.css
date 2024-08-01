@@ -1,0 +1,135 @@
+
+/*Body*/
+.outlined {
+	display: inline-block;
+	width:1650px;
+	border: 2px solid black;
+	margin-left: 20px;
+	margin-right: 10px;
+	border-radius: 8px;
+	background-color:powderblue;
+}
+
+.outlined img {
+	margin-left:100px;
+	width: 200px;
+	height:200px;
+	display: block;
+	padding: 10px;
+}
+
+.outlined label {
+	margin-left:70px;
+	width: 300px;
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.outlined input {
+	font-size: 15px;
+	padding: 3px;
+}
+
+.edit {
+	font-size: 15px;
+	border: 2px solicd black;
+	width: 200px;
+	height: 50px;
+	background-color: lightgray;
+	margin-left: 15px;
+	border-radius: 4px;
+}
+
+.edit:hover{
+	background-color: #0094ff;
+}
+
+.editForm {
+	display: inline-block;
+	width:900px;
+	border: 2px solid black;
+	margin-left: 450px;
+	border-radius: 8px;
+	background-color:powderblue;	
+}
+
+.editForm label {
+	margin-left:70px;
+	width: 300px;
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px;	
+}
+
+.editForm input {
+	font-size: 15px;
+	padding: 3px;
+}
+
+#sb {
+	font-size: 15px;
+	width: 120px;
+	height: 40px;
+	background-color: lightgray;
+	margin-left: 350px;
+	border-radius: 4px;
+}
+
+#sb:hover{
+	background-color: #0094ff;
+}
+
+
+.delete {
+	font-size: 15px;
+	border: 2px solicd black;	
+	width: 200px;
+	height: 50px;
+	background-color: red;
+	margin-left: 10px;
+	border-radius: 4px;
+}
+
+.delete:hover{
+	background-color: #0094ff;
+}
+
+#deleteBox {
+	display: block;
+	width:800px;
+	border: 2px solid black;
+	border-radius: 8px;
+	background-color:#ff9999;		
+}
+
+#yes {
+	font-size: 15px;
+	width: 120px;
+	height: 40px;
+	background-color:gray;
+	margin-left: 50px;
+	border-radius: 4px;	
+}
+
+#yes:hover{
+	background-color:red;
+}
+
+#no {
+	font-size: 15px;
+	width: 120px;
+	height: 40px;
+	background-color: lightgray;
+	border-radius: 4px;	
+}
+
+#no:hover{
+	background-color:#0094ff;
+}
+
+h2 {
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+}

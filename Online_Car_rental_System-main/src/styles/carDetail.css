@@ -1,0 +1,106 @@
+
+/*Body*/
+.outlined {
+	display: inline-block;
+	width:1650px;
+	border: 2px solid black;
+	margin-left: 20px;
+	margin-right: 10px;
+	border-radius: 8px;
+	background-color:powderblue;
+}
+
+.outlined img {
+	width: 520px;
+	height:400px;
+	display: inline-block;
+	padding: 8px;
+}
+
+.outlined span {
+	border: 2px solid black;
+	font-size: 25px;
+	background-color:rgb(155, 155, 160);
+	margin-left: 25px;
+	margin-right: 10px;
+	border-radius: 2px;
+}
+
+.outlined label {
+	font-size: 20px;
+	padding: 10px;
+}
+
+.outlined input {
+	font-size: 15px;
+	padding: 3px;
+}
+
+.outlined select {
+	font-size: 15px;
+	padding: 5px;
+}
+
+input[type=checkbox]{
+	transform: scale(1.5);
+	margin-left: 10px;
+}
+
+.rates {
+	font-size: 25px;
+	width: 470px;
+	height: 130px;
+	border: 2px solid black;
+	margin-left: 25px;
+	background-color: rgb(155, 155, 160);
+	border-radius: 5px;
+}
+
+button {
+	font-size: 15px;
+	width: 120px;
+	height: 40px;
+	background-color: lightgray#66ff66;
+	margin-left: 750px;
+	border-radius: 4px;
+}
+
+button:hover{
+	background-color: #0094ff;
+}
+
+#sbmt{
+	font-size: 20px;
+	width: 150px;
+	height: 50px;
+	background-color: #66ff66;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
+
+#sbmt:hover{
+	background-color: #0094ff;
+}
+
+.carBox {
+	display: inline-block;
+	border: 2px solid black;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 8px;
+	background-color: rgb(105, 128, 140);
+}
+
+.carBox img {
+	float: flex;
+	padding: 6px;
+	width:250px;
+	height:150px;
+}
+
+.carBox:hover {
+	background-color: lightgray;
+}
+
+
